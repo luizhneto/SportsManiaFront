@@ -1,0 +1,102 @@
+.sobre-nos-container {
+    padding: 20px;
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: auto; /* Centraliza o contêiner na página */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: left; 
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+}
+
+.blocos-container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 90%; 
+}
+
+.bloco1 {
+    flex: 1; 
+    margin-right: 10%;
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: justify;
+}
+.bloco2 {
+    margin-left: 10%;
+    flex: 1; 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: justify;
+
+}
+
+.bloco1 h2 {
+    margin-top: 0; 
+}
+
+.bloco1 p {
+    font-size: 1.2em; 
+}
+.bloco1 b {
+    font-size: 1.3em; 
+}
+.bloco2 h2 {
+    margin-top: 0; 
+}
+
+.bloco2 p {
+    font-size: 1.2em; 
+}
+.bloco2 b {
+    font-size: 1.3em; 
+}
+
+.DuvidasContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.duvidas-titulo {
+    justify-content: center;
+    align-items: center;
+    text-align: left; /* Alinha o título à esquerda */
+    font-size: 2.5em; /* Tamanho da fonte do título de dúvidas frequentes */
+    margin: 40px 0 20px; /* Espaçamento acima e abaixo do título */
+}
+
+.duvidas-container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 70%; 
+}
+
+.duvida-bloco {
+    flex: 1; 
+    margin: 10px 0; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    background-color: #fede2c; 
+    transition: background-color 0.3s; 
+}
+.duvidas-blocos {
+    display: flex; 
+    flex-direction: column; 
+    width: 50%; 
+    justify-content: space-between;
+}
+
+.duvida-bloco:hover {
+    background-color: #e0e0e0; /* fundo passar mouse */
+}
+
+.resposta {
+    margin-top: 10px; /* Espaçamento acima da resposta */
+    font-size: 1em; /* Tamanho da fonte da resposta */
+}

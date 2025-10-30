@@ -1,0 +1,30 @@
+.Adress-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#map_canvas {
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.blocos-container {
+margin: auto;
+}
+
+.bloco{
+    background-color: #FEDD2C;
+}

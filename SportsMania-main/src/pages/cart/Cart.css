@@ -1,0 +1,156 @@
+/* Estilos gerais */
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Passos do carrinho */
+.cart-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-steps span {
+  color: #999;
+  font-weight: 500;
+}
+
+.cart-steps .active {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Tabela de produtos */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.cart-table th {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  font-weight: 600;
+}
+
+.cart-table td {
+  padding: 15px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+.cart-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+/* Resumo do pedido */
+.cart-summary {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.summary-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+}
+
+.shipping, .discount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cep-code, .coupon-code {
+  font-weight: 500;
+}
+
+.calculate-btn, .apply-btn {
+  background: #e0e0e0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.calculate-btn:hover, .apply-btn:hover {
+  background: #d0d0d0;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.grand-total {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.payment-info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Botão continuar */
+.continue-btn {
+  width: 100%;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.continue-btn:hover {
+  background: #333;
+}
+
+/* Estilos para os inputs */
+.cep-input, .coupon-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.cep-input:focus, .coupon-input:focus {
+  outline: none;
+  border-color: #999;
+}
+
+/* Ajustes no layout dos containers */
+.shipping, .discount {
+  display: flex;
+  align-items: center;
+}
+
+.calculate-btn, .apply-btn {
+  white-space: nowrap;
+}
